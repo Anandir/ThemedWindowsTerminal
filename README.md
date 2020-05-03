@@ -25,6 +25,8 @@ Actually Terminals provided:
 * One Half Light
 * Solarized Dark
 * Solarized Light
+* Tango Dark
+* Tango Light
 * Vintage
 
 ### Additional colors theme provided
@@ -54,7 +56,7 @@ Over the aesthetical changes some additional functionalities are provided.
 | <kbd>Ctrl</kbd> + <kbd>W</kbd> | Close the actual tab |
 | <kbd>Ctrl</kbd> + <kbd>Tab</kbd> | Switch to the next tab |
 | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Tab</kbd> | Switch to the previous tab |
-| <kbd>Ctrl</kbd> + <kbd>,</kbd> | Open the `profiles.json` directly |
+| <kbd>Ctrl</kbd> + <kbd>,</kbd> | Open the `settings.json` directly |
 | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd> | Open a new "Command Prompt" tab |
 | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>2</kbd> | Open a new "Anaconda" tab |
 | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>3</kbd> | Open a new "PowerShell" tab |
@@ -63,6 +65,10 @@ Over the aesthetical changes some additional functionalities are provided.
 | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Down</kbd> | Scroll Down |
 | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>PgUp</kbd> | Scroll Up a page |
 | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>PgDown</kbd> | Scroll Down a page |
+| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd> | Open Search Box |
+| <kbd>Ctrl</kbd> + <kbd>=</kbd> | Increase the font size by 1 |
+| <kbd>Ctrl</kbd> + <kbd>-</kbd> | Decrease the font size by 1 |
+| <kbd>Ctrl</kbd> + <kbd>0</kbd> | Reset font size |
 | <kbd>Alt</kbd> + <kbd>1</kbd> | Switch to tab 1 |
 | <kbd>Alt</kbd> + <kbd>2</kbd> | Switch to tab 2 |
 | <kbd>Alt</kbd> + <kbd>3</kbd> | Switch to tab 3 |
@@ -73,9 +79,12 @@ Over the aesthetical changes some additional functionalities are provided.
 | <kbd>Alt</kbd> + <kbd>8</kbd> | Switch to tab 8 |
 | <kbd>Alt</kbd> + <kbd>9</kbd> | Switch to tab 9 |
 
+### Copy on selection
+Selections are automatically copied to your clipboard.
+
 ## Tweak
 
-If you have an Anaconda instance on your machine, could be need to update the file `profiles.json` in `LocalState` folder because Anaconda can be installed per user or for all the users on the system. By default the script act with a "per user" approach, if needed just open the `profiles.json` and update the path to match your system setup.
+If you have an Anaconda instance on your machine, could be need to update the file `settings.json` in `LocalState` folder because Anaconda can be installed per user or for all the users on the system. By default the script act with a "per user" approach, if needed just open the `settings.json` and update the path to match your system setup.
 
 ```json
 // Anaconda installed "Just for me"
@@ -89,7 +98,7 @@ If you have an Anaconda instance on your machine, could be need to update the fi
 [Official Microsoft Theming guide](https://github.com/microsoft/terminal/blob/master/doc/cascadia/SettingsSchema.md)
 
 ## License
-The `profiles.json` file is licensed under the [CC0 1.0 Universal](./LICENSE) .
+The `settings.json` file is licensed under the [CC0 1.0 Universal](./LICENSE) .
 
 All the artwork copyright are of their original authors.
 
