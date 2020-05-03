@@ -95,7 +95,8 @@ If you have an Anaconda instance on your machine, could be need to update the fi
 
 ## Additional resources
 
-[Official Microsoft Theming guide](https://github.com/microsoft/terminal/blob/master/doc/cascadia/SettingsSchema.md)
+* [Official Microsoft Windows Command Line Blog](https://devblogs.microsoft.com/commandline/)
+* [Official Microsoft Theming guide](https://github.com/microsoft/terminal/blob/master/doc/cascadia/SettingsSchema.md)
 
 ## License
 The `settings.json` file is licensed under the [CC0 1.0 Universal](./LICENSE) .

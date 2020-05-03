@@ -31,7 +31,7 @@
       ]
     },
     {
-      // Command Prompt Terminal",
+      // Command Prompt Terminal
       "command": {
         "action": "newTab",
         "index": 0
